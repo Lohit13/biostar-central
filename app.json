@@ -27,7 +27,7 @@
       "required": false
     },
     "VERBOSITY": "1",
-    "PYTHON": "pyhton",
+    "PYTHON": "python",
     "DJANGO_ADMIN": "manage.py",
     "JSON_DATA_FIXTURE": "import/default-fixture.json.gz",
     "EMAIL_HOST": {
@@ -90,7 +90,12 @@
       "value": "foobar",
       "required": false
     },
-    "BIOSTAR_MIGRATE_DIR": "~/tmp/biostar-migrate"
+    "BIOSTAR_MIGRATE_DIR": {
+      "description": "Migrate directory",
+      "value": "~/tmp/biostar-migrate",
+      "required": false
+    },
+    "BIOSTAR_HOSTNAME": "$PORT"
   },
   "addons": [
     "heroku-postgresql:hobby-dev"
