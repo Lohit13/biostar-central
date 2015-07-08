@@ -90,7 +90,7 @@
       "value": "foobar",
       "required": false
     },
-    "BIOSTAR_MIGRATE_DIR": "~/tmp/biostar-migrate",
+    "BIOSTAR_MIGRATE_DIR": "~/tmp/biostar-migrate"
   },
   "addons": [
     "heroku-postgresql:hobby-dev"
