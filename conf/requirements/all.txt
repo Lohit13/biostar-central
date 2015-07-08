@@ -24,4 +24,5 @@ psycopg2
 gunicorn
 whitenoise
 waitress
+dj-database-url==0.3.0
 
