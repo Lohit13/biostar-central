@@ -80,6 +80,16 @@
       "value": "foobar",
       "required": false
     },
+    "GITHUB_PROVIDER_KEY": {
+      "description": "Github Provider's Client ID",
+      "value": "foobar",
+      "required": false
+    },
+    "GITHUB_PROVIDER_SECRET_KEY": {
+      "description": "Github Provider's Secret Key",
+      "value": "foobar",
+      "required": false
+    },
     "ORCID_PROVIDER_KEY": {
       "description": "Orcid Provider's Client ID",
       "value": "foobar",
