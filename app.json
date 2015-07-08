@@ -4,7 +4,6 @@
   "repository": "https://github.com/Lohit13/biostar-central/tree/heroku",
   "env": {
     "BIOSTAR_HOME": "pwd",
-
     "BIOSTAR_ADMIN_NAME": {
       "description": "Administrator's Name",
       "required": true
@@ -17,25 +16,20 @@
       "description": "Default Email for mails from Biostar",
       "required": true
     },
-
     "SECRET_KEY": {
       "description": "Secret Key: this will be the default password of admin email",
       "required": true
     },
-
     "DJANGO_SETTINGS_MODULE": "biostar.settings.base",
-
     "DATABASE_NAME": {
       "description": "Name of Database",
       "value": "biostar.db",
       "required": false
     },
-
     "VERBOSITY": "1",
     "PYTHON": "pyhton",
     "DJANGO_ADMIN": "manage.py",
     "JSON_DATA_FIXTURE": "import/default-fixture.json.gz",
-
     "EMAIL_HOST": {
       "description": "Email Host Addr.",
       "value": "foobar",
@@ -56,7 +50,6 @@
       "value": "foobar",
       "required": false
     },
-
     "GOOGLE_PROVIDER_KEY": {
       "description": "Google Provider's Client ID",
       "value": "foobar",
@@ -97,7 +90,6 @@
       "value": "foobar",
       "required": false
     },
-
     "BIOSTAR_MIGRATE_DIR": "~/tmp/biostar-migrate",
   },
   "addons": [
