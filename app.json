@@ -6,25 +6,29 @@
     "BIOSTAR_HOME": "pwd",
     "BIOSTAR_ADMIN_NAME": {
       "description": "Administrator's Name",
+      "value": "Admin",
       "required": true
     },
     "BIOSTAR_ADMIN_EMAIL": {
       "description": "Administrator's Email",
+      "value": "user@foobar.com",
       "required": true
     },
     "DEFAULT_FROM_EMAIL": {
       "description": "Default Email for mails from Biostar",
+      "value": "user@foobar.com",
       "required": true
     },
     "SECRET_KEY": {
       "description": "Secret Key: this will be the default password of admin email",
+      "value": "foobar",
       "required": true
     },
     "DJANGO_SETTINGS_MODULE": "biostar.settings.base",
     "DATABASE_NAME": {
       "description": "Name of Database",
       "value": "biostar.db",
-      "required": false
+      "required": true
     },
     "VERBOSITY": "1",
     "PYTHON": "python",
@@ -53,52 +57,52 @@
     "GOOGLE_PROVIDER_KEY": {
       "description": "Google Provider's Client ID",
       "value": "foobar",
-      "required": false
+      "required": true
     },
     "GOOGLE_PROVIDER_SECRET_KEY": {
       "description": "Google Provider's Secret Key",
       "value": "foobar",
-      "required": false
+      "required": true
     },
     "FACEBOOK_PROVIDER_KEY": {
       "description": "Facebook Provider's Client ID",
       "value": "foobar",
-      "required": false
+      "required": true
     },
     "FACEBOOK_PROVIDER_SECRET_KEY": {
       "description": "Facebook Provider's Secret Key",
       "value": "foobar",
-      "required": false
+      "required": true
     },
     "TWITTER_PROVIDER_KEY": {
       "description": "Twitter Provider's Client ID",
       "value": "foobar",
-      "required": false
+      "required": true
     },
     "TWITTER_PROVIDER_SECRET_KEY": {
       "description": "Twitter Provider's Secret Key",
       "value": "foobar",
-      "required": false
+      "required": true
     },
     "GITHUB_PROVIDER_KEY": {
       "description": "Github Provider's Client ID",
       "value": "foobar",
-      "required": false
+      "required": true
     },
     "GITHUB_PROVIDER_SECRET_KEY": {
       "description": "Github Provider's Secret Key",
       "value": "foobar",
-      "required": false
+      "required": true
     },
     "ORCID_PROVIDER_KEY": {
       "description": "Orcid Provider's Client ID",
       "value": "foobar",
-      "required": false
+      "required": true
     },
     "ORCID_PROVIDER_SECRET_KEY": {
       "description": "Orcid Provider's Secret Key",
       "value": "foobar",
-      "required": false
+      "required": true
     },
     "BIOSTAR_MIGRATE_DIR": {
       "description": "Migrate directory",
