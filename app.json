@@ -3,7 +3,6 @@
   "description": "BioStar is a Python and Django based Q&A software. It is a simple, generic, flexible and extensible Q&A framework.",
   "repository": "https://github.com/Lohit13/biostar-central/tree/heroku",
   "env": {
-    "BIOSTAR_HOME": "pwd",
     "BIOSTAR_ADMIN_NAME": {
       "description": "Administrator's Name",
       "value": "Admin",
@@ -108,6 +107,11 @@
       "description": "Migrate directory",
       "value": "~/tmp/biostar-migrate",
       "required": false
+    },
+    "BIOSTAR_HOME": {
+    	"description": "This is a required variable. Leave it empty",
+    	"value": "",
+    	"required": false
     },
     "BIOSTAR_HOSTNAME": "$PORT"
   },
