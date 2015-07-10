@@ -109,9 +109,9 @@
       "required": false
     },
     "BIOSTAR_HOME": {
-    	"description": "This is a required variable. Leave it empty",
+    	"description": "This is a required variable. Leave it as it is",
     	"value": "",
-    	"required": false
+    	"required": true
     },
     "BIOSTAR_HOSTNAME": "$PORT"
   },
