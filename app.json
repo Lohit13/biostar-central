@@ -24,7 +24,7 @@
       "value": "foobar",
       "required": true
     },
-    "DJANGO_SETTINGS_MODULE": "biostar.settings.base",
+    "DJANGO_SETTINGS_MODULE": "biostar.settings.heroku",
     "DATABASE_NAME": {
       "description": "Name of Database",
       "value": "biostar.db",
