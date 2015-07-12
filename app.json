@@ -1,0 +1,47 @@
+{
+  "name": "Biostar-Central",
+  "description": "BioStar is a Python and Django based Q&A software. It is a simple, generic, flexible and extensible Q&A framework.",
+  "repository": "https://github.com/Lohit13/biostar-central/tree/3.0",
+  "env": {
+    "BIOSTAR_ADMIN_NAME": {
+      "description": "Administrator's Name",
+      "value": "Admin",
+      "required": true
+    },
+    "BIOSTAR_ADMIN_EMAIL": {
+      "description": "Administrator's Email",
+      "value": "user@foobar.com",
+      "required": true
+    },
+    "DEFAULT_FROM_EMAIL": {
+      "description": "Default Email for mails from Biostar",
+      "value": "user@foobar.com",
+      "required": true
+    },
+    "SECRET_KEY": {
+      "description": "Secret Key: this will be the default password of admin email",
+      "value": "foobar",
+      "required": true
+    },
+    "DJANGO_SETTINGS_MODULE": "run.heroku",
+    "DATABASE_NAME": {
+      "description": "Name of Database",
+      "value": "biostar.db",
+      "required": true
+    },
+    "THEME_PATH": {
+      "description": "Path to directory containing the theme",
+      "value": "$BIOSTAR_HOME/themes/default",
+      "required": false
+    },
+    "BIOSTAR_HOME": {
+    	"description": "This is a required variable. Leave it as it is",
+    	"value": "`pwd`",
+    	"required": true
+    },
+    "BIOSTAR_HOSTNAME": "$PORT"
+  },
+  "addons": [
+    "heroku-postgresql:hobby-dev"
+  ]
+}
