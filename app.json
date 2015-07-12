@@ -31,7 +31,7 @@
     },
     "THEME_PATH": {
       "description": "Path to directory containing the theme",
-      "value": "$BIOSTAR_HOME/themes/default",
+      "value": "themes/default",
       "required": false
     },
     "BIOSTAR_HOME": {
