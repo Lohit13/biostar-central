@@ -1,1 +1,30 @@
-init/pip/heroku.txt
+django >=1.7, <1.8
+django-debug-toolbar >=1.2
+django-allauth
+django-braces
+django-haystack
+django-compressor
+django-celery
+django-celery-email
+django-taggit
+django-ratelimit
+six
+decorator
+bleach
+whoosh
+markdown2
+pyzmail
+ftfy
+chardet
+feedparser
+whitenoise
+waitress
+pygments
+fake-factory
+html2text
+pyblue >=2.0
+redis
+pyelasticsearch
+psycopg2
+gunicorn
+dj-database-url==0.3.0
