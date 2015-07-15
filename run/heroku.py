@@ -30,3 +30,6 @@ DATABASE_NAME = get_env('DATABASE_NAME')
 # Parse database configuration from $DATABASE_URL
 import dj_database_url
 DATABASES = { 'default': dj_database_url.config() }
+
+SITE_NAME = get_env("SITE_NAME")
+SITE_DOMAIN = "www.lvh.me:8080"
