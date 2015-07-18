@@ -31,4 +31,5 @@ DATABASES = { 'default': dj_database_url.config() }
 SITE_ID = 1
 SITE_NAME = "Site Name"
 SITE_DOMAIN = get_env("BIOSTAR_HOSTNAME")
+SITE_SCHEME = "https"
 ALLOWED_HOSTS = [get_env("BIOSTAR_HOSTNAME")]
