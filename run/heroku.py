@@ -18,7 +18,7 @@ MANAGERS = ADMINS
 SESSION_COOKIE_DOMAIN = ".lvh.me"
 
 # This must be set correctly in production.
-ALLOWED_HOSTS = ["localhost", get_env("BIOSTAR_HOSTNAME"), ".lvh.me"]
+ALLOWED_HOSTS = ["localhost",".lvh.me"]
 
 # The secret key can be used to log into the admin account!
 # Make sure to change it in production.
@@ -31,5 +31,7 @@ DATABASE_NAME = get_env('DATABASE_NAME')
 import dj_database_url
 DATABASES = { 'default': dj_database_url.config() }
 
-SITE_NAME = get_env("SITE_NAME")
-SITE_DOMAIN = get_env("DOMAIN_NAME")
+SITE_ID = 1
+SITE_NAME = "Site Name"
+SITE_DOMAIN = get_env("BIOSTAR_HOSTNAME")
+ALLOWED_HOSTS = ["localhost", get_env("BIOSTAR_HOSTNAME")]
