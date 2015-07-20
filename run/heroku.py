@@ -15,7 +15,9 @@ DEFAULT_FROM_EMAIL = get_env("DEFAULT_FROM_EMAIL")
 MANAGERS = ADMINS
 
 # Needs to match the server domain.
-SESSION_COOKIE_DOMAIN = ".lvh.me"
+SESSION_COOKIE_DOMAIN = get_env("BIOSTAR_HOSTNAME")
+
+ALLOWED_HOSTS = [get_env("BIOSTAR_HOSTNAME")]
 
 # The secret key can be used to log into the admin account!
 # Make sure to change it in production.
@@ -32,4 +34,3 @@ SITE_ID = 1
 SITE_NAME = "Site Name"
 SITE_DOMAIN = get_env("BIOSTAR_HOSTNAME")
 SITE_SCHEME = "https"
-ALLOWED_HOSTS = [get_env("BIOSTAR_HOSTNAME")]
