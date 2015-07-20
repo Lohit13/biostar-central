@@ -3,10 +3,10 @@
   "description": "BioStar is a Python and Django based Q&A software. It is a simple, generic, flexible and extensible Q&A framework.",
   "repository": "https://github.com/Lohit13/biostar-central/tree/3.0",
   "env": {
-  	"DOMAIN_NAME": {
-      "description": "Domain on which to access site. Default is [appname].herokuapp.com",
-      "value": "",
-      "required": true
+  	"BIOSTAR_HOSTNAME": {
+    	"description": "The domain name of the hosted instance. It is usually [appname].herokuapp.com",
+    	"value": "",
+    	"required": true
     },
     "SITE_NAME": {
       "description": "Name of Site",
@@ -48,8 +48,7 @@
     	"description": "This is a required variable. Leave it as it is",
     	"value": "./",
     	"required": true
-    },
-    "BIOSTAR_HOSTNAME": "$PORT"
+    }
   },
   "addons": [
     "heroku-postgresql:hobby-dev"
