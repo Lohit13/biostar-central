@@ -15,9 +15,9 @@ DEFAULT_FROM_EMAIL = get_env("DEFAULT_FROM_EMAIL")
 MANAGERS = ADMINS
 
 # Needs to match the server domain.
-SESSION_COOKIE_DOMAIN = ".herokuapp.com"
+SESSION_COOKIE_DOMAIN = get_env("BIOSTAR_HOSTNAME")
 
-ALLOWED_HOSTS = [".herokuapp.com"]
+ALLOWED_HOSTS = [get_env("BIOSTAR_HOSTNAME")]
 
 # The secret key can be used to log into the admin account!
 # Make sure to change it in production.
