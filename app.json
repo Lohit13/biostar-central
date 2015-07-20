@@ -46,7 +46,7 @@
     },
     "BIOSTAR_HOME": {
     	"description": "This is a required variable. Leave it as it is",
-    	"value": "`pwd`",
+    	"value": "./",
     	"required": true
     },
     "BIOSTAR_HOSTNAME": "$PORT"
