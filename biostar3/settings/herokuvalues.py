@@ -32,9 +32,9 @@ MANAGERS = ADMINS
 # Site setup.
 # lvh.me resolves to localhost and contains dotted domain name.
 SITE_ID = 1
-SITE_NAME = "Site Name"
+SITE_NAME = "Biostar"
 SITE_DOMAIN = get_env("BIOSTAR_HOSTNAME")
-SITE_SCHEME = "https"
+SITE_SCHEME = "http"
 
 # Subdomain relative to site domain.
 SITE_PREPEND_SUBDOMAIN = False

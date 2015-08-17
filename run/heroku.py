@@ -26,11 +26,7 @@ SECRET_KEY = get_env("SECRET_KEY")
 # The database name must be present.
 DATABASE_NAME = get_env('DATABASE_NAME')
 
-# Parse database configuration from $DATABASE_URL
-import dj_database_url
-DATABASES = { 'default': dj_database_url.config() }
-
 SITE_ID = 1
-SITE_NAME = "Site Name"
+SITE_NAME = "Lohit"
 SITE_DOMAIN = get_env("BIOSTAR_HOSTNAME")
-SITE_SCHEME = "https"
+SITE_SCHEME = "http"
